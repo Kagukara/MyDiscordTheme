@@ -3864,6 +3864,33 @@ body:before {
 
 /* ~~~~		14.		POPOUTS							~~~~ */
 
+.layer-v9HyYc:nth-child(1) {
+	z-index: 1002;
+}
+.layer-v9HyYc:nth-child(2) {
+	z-index: 1003;
+}
+.layer-v9HyYc:nth-child(3) {
+	z-index: 1004;
+}
+.layer-v9HyYc:nth-child(4) {
+	z-index: 1005;
+}
+.layer-v9HyYc:nth-child(5) {
+	z-index: 1006;
+}
+.layer-v9HyYc:nth-child(6) {
+	z-index: 1007;
+}
+.layer-v9HyYc:nth-child(7) {
+	z-index: 1008;
+}
+.layer-v9HyYc:nth-child(8) {
+	z-index: 1009;
+}
+.layer-v9HyYc:nth-child(9) {
+	z-index: 1010;
+}
 #app-mount .popout-2iWAc-:not(.noShadow-3pu20z) {
 	box-shadow: 0 0 1px rgba(var(--vtransparencycolor), 0.2), 0 1px 4px rgba(var(--vtransparencycolor), 0.1);
 }
