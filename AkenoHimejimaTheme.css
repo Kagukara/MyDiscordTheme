@@ -4275,15 +4275,15 @@ body::before {
 
 /* ----		14.3.	EMOJIPICKER						---- */
 
-.contentWrapper-SvZHNd,										/* picker				expression wrapper					*/
-.emojiPicker-3PwZFl,										/* picker				inner								*/
-.diversitySelectorPopout-3FiGaM {							/* picker				diversityselector					*/
-	background: rgba(var(--vtransparencycolor), calc(var(--vtransparencyalpha) + 0.25));
+/*.contentWrapper-SvZHNd,										/* picker				expression wrapper					*/
+/*.emojiPicker-3PwZFl,										/* picker				inner								*/
+/*.diversitySelectorPopout-3FiGaM {							/* picker				diversityselector					*/
+/*	background: rgba(var(--vtransparencycolor), calc(var(--vtransparencyalpha) + 0.25));
 	box-shadow: 0 2px 10px 0 rgba(var(--vtransparencycolor), 0.3);
 	border: none;
 	overflow: hidden;
-}
-.contentWrapper-SvZHNd::before,
+}*/
+/*.contentWrapper-SvZHNd::before,
 .emojiPicker-3PwZFl::before,
 .diversitySelectorPopout-3FiGaM::before {
 	content: "";
@@ -4299,7 +4299,7 @@ body::before {
 	height: unset;
 	pointer-events: none;
 	z-index: -1;
-}
+}*/
 .diversitySelectorPopout-3FiGaM::after,
 .diversitySelectorPopout-3FiGaM::before {
 	border-radius: 5px;
