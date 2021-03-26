@@ -1,6 +1,6 @@
 :root {
-	--dtransparencyalpha:			0,0,0;
-	--dgeneraltransparency:			0.15;
+	--dtransparencycolor:			0,0,0;
+	--dtransparencyalpha:			0.15;
 	--dmessagetransparency:			0.5;
 	--dguildchanneltransparency:	0.15;
 	--dmemberlisttransparency:		0.0;
@@ -11,7 +11,8 @@
 	
 	--dbackground:					url(https://kagukara.github.io/MyDiscordTheme/background.png);
 	--dbackgroundsize:				cover;
-	--dblur:						0px;
+	--dbackgroundposition:			center;
+	--dblur:						unset;
 	--dbackdrop:					rgba(0,0,0,0.85);
 
 	--vtransparencycolor:			var(--transparencycolor,			var(--dtransparencycolor));
@@ -7393,4 +7394,52 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
 
 #app-mount .contentRegionScroller-26nc1e, .sidebarRegionScroller-3MXcoP{
 	background-color: rgba(0, 0, 0, 0);
+}
+
+#app-mount .wrapper-3NnKdC{
+	background-color: rgba(var(--vtransparencycolor), calc(var(--vguildchanneltransparency) * 2));
+}
+
+.wrapper-3Njo_c {											/* folder				outerwrap							*/
+	margin-bottom: 8px;
+}
+.folder-21wGz3,												/* folder				iconwrap							*/
+.folder-1hbNCn {											/* folder				iconwrap							*/
+	background-color: rgba(var(--vtransparencycolor), 0.2);
+}
+.folder-21wGz3.hover-2ji_A7,
+.folder-1hbNCn.hover-qTxTR_ {
+	background-color: rgba(var(--vtransparencycolor), 0.4);
+}
+.expandedFolderBackground-2sPsd-,							/* folder				background							*/
+.expandedFolderBackground-1cujaW {							/* folder				background							*/
+	background-color: rgba(var(--vtransparencycolor), 0.2);
+	border-radius: 15px 15px 24px 24px;
+	top: 0;
+	bottom: 0;
+	margin-bottom: 8px;
+	transition: border-radius 3s ease, background-color 1s ease;
+}
+.expandedFolderBackground-2sPsd-.hover-2ji_A7,
+.expandedFolderBackground-1cujaW.hover-qTxTR_ {
+	background-color: rgba(var(--vtransparencycolor), 0.4);
+}
+
+.wrapper-1Rf91z .wrapper-21YSNc [role="group"],				/* folder				guildwrap							*/
+.wrapper-3NnKdC .wrapper-3Njo_c [role="group"] {			/* folder				guildwrap							*/
+	margin-bottom: -8px;
+}
+.wrapper-1Rf91z .wrapper-21YSNc [role="group"] .listItem-2P_4kh:last-child,
+.wrapper-3NnKdC .wrapper-3Njo_c [role="group"] .listItem-GuPuDH:last-child {
+	margin-bottom: 0;
+}
+
+.circleIconButton-1QV--U {									/* guildadd/discovery	innerwrap							*/
+	background-color: rgba(var(--vtransparencycolor), 0.3);
+}
+
+.contentWrapper-SvZHNd::before,
+.emojiPicker-3PwZFl::before,
+.diversitySelectorPopout-3FiGaM::before {
+	background: var(--vpopout) var(--vpopoutposition)/var(--vpopoutsize);
 }
