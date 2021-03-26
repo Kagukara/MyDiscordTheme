@@ -7448,3 +7448,8 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
 	color: #af2424;
 	background: #00000000
 }
+
+.wrapper-3WhCwL.interactive:hover{
+	color: #af2424;
+	background-color: #00000000
+}
