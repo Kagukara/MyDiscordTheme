@@ -7447,10 +7447,4 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
 .wrapper-3WhCwL{
 	color: #af2424;
 	background: #00000000
-}
-
---interactive-hover{
-	color: #af2424;
-	background-color: #500909
-	text-decoration: underline;
-}
+}	
