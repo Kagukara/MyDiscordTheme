@@ -7445,14 +7445,8 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
 }
 
 .wrapper-3WhCwL {
-    border-radius: 3px;
-    padding: 0 2px;
-    font-weight: 500;
-    unicode-bidi: -moz-plaintext;
-    unicode-bidi: plaintext;
-    color: #af2424;
-    background: #00000000
-    position: relative;
+    color: #9e0707;
+    background: rgba(255, 0, 0, 0.07);
 }
 
 /*
