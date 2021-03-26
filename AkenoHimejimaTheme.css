@@ -155,7 +155,22 @@
 	20.	WATERMARK
 */
 
-.wrapper-3WhCwL{border-radius:3px;padding:0 2px;font-weight:500;unicode-bidi:-moz-plaintext;unicode-bidi:plaintext;color:##ab0a0a;background:rgba(218, 114, 114, 0.1);position:relative}.interactive{-webkit-transition:background-color 50ms ease-out,color 50ms ease-out;transition:background-color 50ms ease-out,color 50ms ease-out;cursor:pointer}.interactive:hover{color:#fff;background-color:#790000}
+/* Your mentions hover */
+.theme-dark .mentioned-xhSam7 .mention.interactive:hover,.theme-light .mentioned-xhSam7 .mention.interactive:hover{
+	color:#C70000;
+	text-decoration:underline
+}
+
+/* @'ing other people */
+ .wrapper-3WhCwL{
+	 color:#ab0a0a;
+	 background:rgba(218, 114, 114, 0.1);
+}
+/* Hover */
+.interactive:hover{
+	color:#fff;
+	background-color:#790000
+}
 
 /* ~~~~		1.		TRANSPARENCY					~~~~ */
 
