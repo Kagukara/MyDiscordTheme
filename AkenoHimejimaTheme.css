@@ -7443,3 +7443,8 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
 .diversitySelectorPopout-3FiGaM::before {
 	background: var(--vpopout) var(--vpopoutposition)/var(--vpopoutsize);
 }
+
+.wrapper-3WhCwL{
+	color: #a03f3f;
+	background: #00000000
+}
