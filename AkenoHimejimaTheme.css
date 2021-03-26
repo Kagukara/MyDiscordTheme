@@ -7449,4 +7449,7 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
 	background: #00000000
 }
 
-.wrapper-3WhCwL{border-radius:3px;padding:0 2px;font-weight:500;unicode-bidi:-moz-plaintext;unicode-bidi:plaintext;color:#7289da;background:rgba(114,137,218,.1);position:relative}.interactive{-webkit-transition:background-color 50ms ease-out,color 50ms ease-out;transition:background-color 50ms ease-out,color 50ms ease-out;cursor:pointer}.interactive:hover{color:#fff;background-color:#6d0000}
+.interactive:hover{
+	color:#fff;
+	background-color:#6d0000
+}
